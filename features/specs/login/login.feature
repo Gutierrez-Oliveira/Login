@@ -1,4 +1,5 @@
 #language: pt
+#encoding: UTF-8
 
 @fluxo_login
 Funcionalidade: Login - Validar que é possivel realizar login
@@ -14,6 +15,6 @@ Funcionalidade: Login - Validar que é possivel realizar login
     Então validar o site redirecionou de forma "<tipo>"
 
     Exemplos:
-      | tipo     | email                           | senha           |
+      | tipo     | email                           | senha     |
       | positiva | testeautomacaoruby@gmail.com    | Ruby*1234 |
-      | negativa | invalido123@gmail.com           | 1234*Ruby      |
+      | negativa | invalido123@gmail.com           | 1234*Ruby |
